@@ -29,7 +29,7 @@ export class MenuForm {
         try {
             return forceShow(this.player, MenuFormBuilder.buildAllInstanceName()).then((response) => {
                 if (response.canceled)
-                    return;
+                    return void 0;
                 let selection = response.selection;
                 if (selection === 0) {
                     new BuilderForm(this.player);
@@ -46,7 +46,7 @@ export class MenuForm {
         } catch (e) {
             if (e.message === 'Menu timed out.') {
                 this.player.sendMessage({ translate: 'construct.menu.open.timeout' });
-                return;
+                return void 0;
             }
             throw e;
         }
