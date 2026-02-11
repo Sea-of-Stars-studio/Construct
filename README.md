@@ -6,7 +6,8 @@
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/ForestOfLight/Construct/total?label=Github%20downloads&logo=github)](https://github.com/ForestOfLight/Construct/releases)
 [![Curseforge Downloads](https://cf.way2muchnoise.eu/full_1283139_downloads.svg)](https://www.curseforge.com/minecraft-bedrock/addons/construct)
-[![Minecraft - Version](https://img.shields.io/badge/Minecraft-v1.21.130_(Bedrock)-brightgreen)](https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs)
+[![Minecraft - Version](https://img.shields.io/badge/Minecraft-v26.0_(Bedrock)-brightgreen)](https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/c091aa1237d546c4b448a25fbc847f9a)](https://app.codacy.com/gh/ForestOfLight/Construct/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Discord](https://badgen.net/discord/members/9KGche8fxm?icon=discord&label=Discord&list=what)](https://discord.gg/9KGche8fxm)
 </div>
 
@@ -27,17 +28,13 @@ Give yourself the tools to ease the survival building process with Construct, an
     </a>
 </div>
 
-> [!IMPORTANT]
-> This is a standalone addon, but it is also a **Canopy Extension**, which means **Canopy** can be installed in your world for the best experience!
-> [Download **Canopy** here!](https://github.com/ForestOfLight/Canopy)
-
 ## Usage
 
 Construct's latest release can be downloaded from its [Releases Page](https://github.com/ForestOfLight/Construct/releases) right here on GitHub. Install it just like any other addon, though make sure the Beta APIs experiment is enabled!
 
 ### Construct Menu
 
-Use `/construct:item` to get the Construct item, which opens the Construct menu. This item is also available in the Creative inventory under the "Items" tab. Using the Construct item will open a menu where you can manage your structures instances. You can create new instances of structures, edit existing ones, and delete them when you no longer need them. There are plenty options available to customize your building style!
+Use `/construct:construct` to get the Construct item, which opens the Construct menu. This item is also available in the Creative inventory under the "Items" tab. Using the Construct item will open a menu where you can manage your structures instances. You can create new instances of structures, edit existing ones, and delete them when you no longer need them. There are plenty options available to customize your building style!
 
 *Pro tip: You can name the Construct item after a structure instance to automagically select it when you open the menu!*
 
@@ -52,11 +49,8 @@ Construct uses Minecraft's vanilla structure system so that you can easily creat
 
 ### Commands
 
-**Usage: `/construct:item`**  
+**Usage: `/construct:construct`**  
 Gives you the Construct item. Use it to open the Construct menu.
-
-**Usage: `./construct`**  
-Shows the Construct menu. Only available while **Canopy** is installed.
 
 ## Join the Community
 
