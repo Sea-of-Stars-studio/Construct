@@ -27,10 +27,6 @@ Give yourself the tools to ease the survival building process with Construct, an
     </a>
 </div>
 
-> [!IMPORTANT]
-> This is a standalone addon, but it is also a **Canopy Extension**, which means **Canopy** can be installed in your world for the best experience!
-> [Download **Canopy** here!](https://github.com/ForestOfLight/Canopy)
-
 ## Usage
 
 Construct's latest release can be downloaded from its [Releases Page](https://github.com/ForestOfLight/Construct/releases) right here on GitHub. Install it just like any other addon, though make sure the Beta APIs experiment is enabled!
